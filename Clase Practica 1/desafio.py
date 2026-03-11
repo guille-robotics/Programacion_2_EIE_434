@@ -24,7 +24,7 @@ parser.add_argument(
     required=True,
 
     # Texto de ayuda que aparece cuando el usuario ejecuta:
-    # python resistencias.py --help
+    # python desafio.py --help
     help="Tipo de conexión"
 )
 
@@ -38,7 +38,7 @@ parser.add_argument(
 
     # nargs="+" indica que el usuario puede ingresar UNO o MÁS valores.
     # Por ejemplo:
-    # python resistencias.py --tipo serie --resistencias 10 20 30
+    # python desafio.py --tipo serie --resistencias 10 20 30
     #
     # Todos estos valores se guardarán dentro de una lista.
     nargs="+",
